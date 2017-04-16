@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{f2eb57fb-a244-4ec7-8680-400717326862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\liblzma">
+      <UniqueIdentifier>{31f45708-27ad-49aa-aaf0-1bda4124e882}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\liblzma\LzmaCoder.cpp">
+      <Filter>src\liblzma</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\liblzma\7zTypes.h">
+      <Filter>src\liblzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\liblzma\LzmaLib.h">
+      <Filter>src\liblzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\liblzma\LzmaCoder.h">
+      <Filter>src\liblzma</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\src\liblzma\LZMA.lib">
+      <Filter>src\liblzma</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
